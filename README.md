@@ -11,7 +11,7 @@ Extend functionality for IP conversion as used un subnetting.
 Python 3.10.8
 
 
-Written in Python 3.10.8 and tested on Linux, Windows users should be able to run it.
+Written in Python 3.10.8 and tested on Linux.
 
 
 
