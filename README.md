@@ -6,7 +6,7 @@ TODO:
 
 Write fixes for bugs.
 
-Extend functionality for IP conversion as used un subneting.
+Extend functionality for IP conversion as used un subnetting.
 
 Python 3.10.8
 
