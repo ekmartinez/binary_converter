@@ -111,6 +111,18 @@ class Ui_BitConverter(object):
         self.actionExit.setText(_translate("BitConverter", "Exit"))
 
     def convert(self):
+        num = self.input_box.text()
+
+        if self.decimal_option.isChecked():
+            self.results_box.setText(str(int(num, 2)))
+
+        if self.binary_option.isChecked():
+            self.results_box.setText(bin(int(num))[2:])
+
+
+
+'''
+    def convert(self):
         
         initialized = converter(self.input_box.text())
 
@@ -120,6 +132,7 @@ class Ui_BitConverter(object):
         if self.binary_option.isChecked():
             self.results_box.setText(str(initialized.to_binary()))
     
+    '''
 
 if __name__ == "__main__":
     import sys
