@@ -4,14 +4,8 @@ A calculator that converts binary to decimal and vice-versa.
 
 TODO:
 
-Write fixes for bugs.
+Upgrade for IP conversion as used un subnetting.
 
-Extend functionality for IP conversion as used un subnetting.
-
-Python 3.10.8
-
-
-Written in Python 3.10.8 and tested on Linux.
 
 
 
